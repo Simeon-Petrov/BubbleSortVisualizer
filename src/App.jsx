@@ -30,9 +30,9 @@ export default function App() {
         ::-webkit-scrollbar { width: 4px; }
         ::-webkit-scrollbar-track { background: #111; }
         ::-webkit-scrollbar-thumb { background: #334; border-radius: 2px; }
-        .bar-wrap { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; flex: 1; }
+        .bar-wrap { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; flex: 1; height: 100%; }
         .bar { width: 100%; border-radius: 3px 3px 0 0; transition: height 0.2s cubic-bezier(.4,0,.2,1), background 0.15s; position: relative; min-height: 4px; }
-        .bar-label { font-size: 9px; color: #64748b; margin-top: 4px; text-align: center; transition: color 0.15s; }
+        .bar-label { font-size: 15px; color: #64748b; margin-top: 4px; text-align: center; transition: color 0.15s; }
         .btn { border: 1px solid #2d3748; background: transparent; color: #94a3b8; padding: 8px 20px; border-radius: 4px; font-family: inherit; font-size: 13px; cursor: pointer; transition: all 0.15s; letter-spacing: 0.05em; }
         .btn:hover { background: #1e2a3a; color: #e2e8f0; border-color: #4a90d9; }
         .btn.primary { background: #1a3a5c; border-color: #4a90d9; color: #7ec8e3; font-weight: 600; }
@@ -40,7 +40,7 @@ export default function App() {
         .btn:disabled { opacity: 0.3; cursor: not-allowed; }
         .speed-btn { padding: 6px 14px; font-size: 11px; }
         .speed-btn.active { background: #1a3a5c; border-color: #4a90d9; color: #7ec8e3; }
-        .log-entry { padding: 3px 0; font-size: 11px; line-height: 1.5; border-bottom: 1px solid #111; }
+        .log-entry { padding: 3px 0; font-size: 13px; line-height: 1.5; border-bottom: 1px solid #111; }
         .log-start { color: #7ec8e3; }
         .log-pass { color: #94a3b8; }
         .log-swap { color: #f59e0b; }
